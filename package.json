@@ -1,106 +1,106 @@
 {
   "$schema": "https://www.raycast.com/schemas/extension.json",
-  "name": "raycast-extension-template-collection",
-  "title": "Raycast Extension Template Collection",
-  "description": "Raycast Extension Template Collection Description",
+  "name": "raycast-extension-templates",
+  "title": "Raycast Extension Templates",
+  "description": "A collection of Raycast extension templates.",
   "icon": "extension-icon.png",
   "author": "rmncldyo",
   "license": "MIT",
   "commands": [
     {
+      "name": "blank-command",
+      "title": "Blank Command Title",
+      "subtitle": "Black command subtitle",
+      "description": "Blank command description.",
+      "mode": "no-view"
+    },
+    {
       "name": "show-detail",
-      "title": "Show Detail",
-      "subtitle": "Raycast Extension Template Collection",
-      "description": "Show Detail Command Description",
+      "title": "Show Detail Title",
+      "subtitle": "Show detail subtitle",
+      "description": "Show detail description.",
       "mode": "view"
     },
     {
       "name": "submit-form",
-      "title": "Submit Form",
-      "subtitle": "Raycast Extension Template Collection",
-      "description": "Submit Form Command Description",
+      "title": "Submit Form Title",
+      "subtitle": "Submit form subtitle",
+      "description": "Submit form description.",
       "mode": "view"
     },
     {
       "name": "show-grid",
-      "title": "Show Grid",
-      "subtitle": "Raycast Extension Template Collection",
-      "description": "Show Grid Command Description",
+      "title": "Show Grid Title",
+      "subtitle": "Show grid subtitle",
+      "description": "Show grid description.",
       "mode": "view"
     },
     {
       "name": "show-list-and-detail",
-      "title": "Show List and Detail",
-      "subtitle": "Raycast Extension Template Collection",
-      "description": "Show List and Detail Command Description",
+      "title": "Show List And Detail Title",
+      "subtitle": "Show list and detail subtitle",
+      "description": "Show list and detail description.",
       "mode": "view"
     },
     {
       "name": "menu-bar-extra",
-      "title": "Menu Bar Extra",
-      "subtitle": "Raycast Extension Template Collection",
-      "description": "Menu Bar Extra Command Description",
+      "title": "Menu Bar Extra Title",
+      "subtitle": "Menu bar extra subtitle",
+      "description": "Menu bar extra description.",
       "mode": "menu-bar"
     },
     {
       "name": "run-script",
-      "title": "Run Script",
-      "subtitle": "Raycast Extension Template Collection",
-      "description": "Run Script Command Description",
+      "title": "Run Script Title",
+      "subtitle": "Run script subtitle",
+      "description": "Run script description.",
       "mode": "no-view"
     },
     {
       "name": "show-list",
-      "title": "Show List",
-      "subtitle": "Raycast Extension Template Collection",
-      "description": "Show List Command Description",
+      "title": "Show List Title",
+      "subtitle": "Show list subtitle",
+      "description": "Show list description.",
       "mode": "view"
     },
     {
-      "name": "show-typehead-results",
-      "title": "Show Typehead Results",
-      "subtitle": "Raycast Extension Template Collection",
-      "description": "Show Typehead Results Command Description",
+      "name": "show-typeahead-results",
+      "title": "Show Typeahead Results Title",
+      "subtitle": "Show typeahead results subtitle",
+      "description": "Show typeahead results description.",
       "mode": "view"
     },
     {
       "name": "ai",
-      "title": "AI",
-      "subtitle": "Raycast Extension Template Collection",
-      "description": "AI Command Description",
+      "title": "AI Title",
+      "subtitle": "AI subtitle",
+      "description": "AI description.",
       "mode": "view"
-    },
-    {
-      "name": "blank",
-      "title": "Blank",
-      "subtitle": "Raycast Extension Template Collection",
-      "description": "Blank Command Description",
-      "mode": "no-view"
     }
   ],
   "tools": [
     {
       "name": "blank-tool",
-      "title": "Blank Tool",
-      "description": "Blank Tool Description"
+      "title": "Blank Tool Title",
+      "description": "Blank tool description."
     },
     {
       "name": "tool-with-confirmation",
-      "title": "Tool with Confirmation",
-      "description": "Tool with Confirmation Description"
+      "title": "Tool With Confirmation Title",
+      "description": "Tool with confirmation description."
     }
   ],
   "dependencies": {
-    "@raycast/api": "^1.99.3",
-    "@raycast/utils": "^1.19.1"
+    "@raycast/api": "^1.99.4",
+    "@raycast/utils": "^1.17.0"
   },
   "devDependencies": {
     "@raycast/eslint-config": "^2.0.4",
-    "@types/node": "22.15.26",
-    "@types/react": "19.1.6",
-    "eslint": "^9.27.0",
+    "@types/node": "22.13.10",
+    "@types/react": "19.0.10",
+    "eslint": "^9.22.0",
     "prettier": "^3.5.3",
-    "typescript": "^5.8.3"
+    "typescript": "^5.8.2"
   },
   "scripts": {
     "build": "ray build",
